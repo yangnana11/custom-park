@@ -178,32 +178,3 @@ function cpt_save_park_custom_fields($post_id) {
     }
 }
 add_action('save_post', 'cpt_save_park_custom_fields');
-
-// function remove_park_custom_fields() {
-//     remove_meta_box('postcustom', 'park', 'normal');
-// }
-// add_action('admin_menu', 'remove_park_custom_fields');
-
-// function remove_park_featured_image() {
-//     remove_post_type_support('park', 'thumbnail');
-// }
-// add_action('init', 'remove_park_featured_image');
-
-// function remove_park_editor() {
-//     remove_post_type_support('park', 'editor');
-// }
-// add_action('init', 'remove_park_editor');
-
-// function change_title_placeholder_text() {
-//     global $pagenow;
-//     if ($pagenow === 'post.php' || $pagenow === 'post-new.php') {
-//         ?>
-//         <script type="text/javascript">
-//             jQuery(document).ready(function($) {
-//                 $('#title').attr('placeholder', 'Add Name');
-//             });
-//         </script>
-//         <?php
-//     }
-// }
-// add_action('admin_head', 'change_title_placeholder_text');
