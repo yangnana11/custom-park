@@ -1,3 +1,13 @@
+Install the ZIP file, ensuring the wp-content folder has the correct ownership.
+
+![Upload Plugin](assets/images/Upload-Plugin.png)
+
+![Install Plugin](assets/images/Plugin-Install-Select-Zip.png)
+
+Activate after successful installation
+
+![Activate Plugin](assets/images/Activate-Plugin.png)
+
 The Park plugin will be displayed in the Admin Dashboard after successful installation.
 
 ![Plugin Success](assets/images/Install-Success.png)
